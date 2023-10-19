@@ -1,0 +1,6 @@
+{
+    "data_dir": "./wp_data",
+    "ssws": 10,
+    "dist_in_dlg": 100,
+    "max_len": 480
+}
