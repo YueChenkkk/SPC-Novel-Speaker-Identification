@@ -66,7 +66,7 @@ python test.py \
 
 ## FAQ
 ### 1. Why MMC is disabled here?
-In practice we observed the auxiliary Mask mention Classification (MMC) task couldn't bring steady improvements for smaller training sets with less than 100k examples (like WP and JY). So we keep setting `--role_mask_prob` < 0 and `--lbd2` < 0 in the released code to disable MMC. If you have a bigger training data, we recommend you try `--role_mask_prob` = 0.5 and `--lbd2` == 0.3.
+In practice we observed the auxiliary Mask mention Classification (MMC) task couldn't bring steady improvements for smaller training sets with less than 100k examples (like WP and JY). So we keep setting `--role_mask_prob` < 0 and `--lbd2` < 0 in the released code to disable MMC. If you have a bigger training data, we recommend you try `--role_mask_prob` = 0.5 and `--lbd2` = 0.3.
 
 ## Citation
 If you find our code useful, please cite the following paper:
