@@ -20,7 +20,7 @@ The processed version of two speaker identification datasets:
 - *World of Plainness* (WP, https://github.com/YueChenkkk/Chinese-Dataset-Speaker-Identification)
 - *Jin-Yong Stories* (JY, https://github.com/huayi-dou/The-speaker-identification-corpus-of-Jin-Yong-novels) 
 
-are provided in `data/(wp/jy)_data/(train/dev/test)_instances.json`. You can check `data/build\_(wp/jy)_dataset.py` for preprocessing details.
+are provided in `data/(wp/jy)_data/(train/dev/test)_instances.json`. You can check `data/build_(wp/jy)_dataset.py` for preprocessing details.
 
 ### Training
 We provide a single-node multi-gpu training script. By running the following shell script, you can obtain a model trained on WP data. `--left_aux` and `--right_aux` control the number of neighbourhood utterances on the left and right side of the target utterance for Neighbourhood Utterance Speaker Classification (NUSC). `--prompt_type` == 3 chooses the template "（[MASK]说了这句话）". `--role_mask_prob` controls the probability of masking a character mention in the two adjacent sentences of the target utterance for the auxiliary Mask mention Classification (MMC) task. `--lbd1` and `--lbd2` controls the loss weights of NUSC and MMC.  
