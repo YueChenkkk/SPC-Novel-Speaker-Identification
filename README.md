@@ -76,8 +76,8 @@ If you find our code useful, please cite the following paper:
       booktitle={Findings of the Association for Computational Linguistics: EMNLP 2023},
       title={Symbolization, Prompt, and Classification: A Framework for Implicit Speaker Identification in Novels},
       author={Yue Chen, Tian-Wei He, Hong-Bin Zhou, Jia-Chen Gu, Heng Lu, Zhen-Hua Ling},
-      url = {TO BE UPDATED},
+      url = {https://aclanthology.org/2023.findings-emnlp.225/},
       year={2023},
-      pages={TO BE UPDATED},
+      pages={3455–3467},
 }
 ```
